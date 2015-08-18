@@ -1,20 +1,20 @@
 Package.describe({
   summary: 'A collection Bootswatch themes for Bootstrap-Themer',
-  name: 'tap:bootstrap-themer-bootswatch-themes',
-  version:'0.1.0',
-  git:'https://github.com/TAPevents/bootstrap-themer-bootswatch-themes'
+  name: 'tap:meteorstrap-bootswatch',
+  version: '0.1.0',
+  git: 'https://github.com/TAPevents/meteorstrap-bootswatch'
 });
 
 Package.on_use(function (api) {
 
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.1.0.3');
 
   api.use([
     'coffeescript'
   ], ['server']);
 
   api.use([
-    'tap:bootstrap-themer'
+    'tap:meteorstrap'
   ], ['server'], {weak:true});
 
   // Bootstrap Server-side assets
