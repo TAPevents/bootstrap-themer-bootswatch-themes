@@ -5,7 +5,7 @@ Package.describe({
   git: 'https://github.com/TAPevents/meteorstrap-bootswatch'
 });
 
-Package.on_use(function (api) {
+Package.on_use(function(api) {
 
   api.versionsFrom('1.1.0.3');
 
@@ -15,27 +15,33 @@ Package.on_use(function (api) {
 
   api.use([
     'tap:meteorstrap'
-  ], ['server'], {weak:true});
+  ], ['server'], {weak: true});
 
   // Bootstrap Server-side assets
   api.add_files([
     // bootswatch themes
-    'themes/amelia/bootswatch.less',
-    'themes/amelia/variables.less',
     'themes/cerulean/bootswatch.less',
     'themes/cerulean/variables.less',
     'themes/cosmo/bootswatch.less',
     'themes/cosmo/variables.less',
+    'themes/custom/bootswatch.less',
+    'themes/custom/variables.less',
     'themes/cyborg/bootswatch.less',
     'themes/cyborg/variables.less',
     'themes/darkly/bootswatch.less',
     'themes/darkly/variables.less',
     'themes/flatly/bootswatch.less',
     'themes/flatly/variables.less',
+    'themes/journal/bootswatch.less',
+    'themes/journal/variables.less',
     'themes/lumen/bootswatch.less',
     'themes/lumen/variables.less',
+    'themes/paper/bootswatch.less',
+    'themes/paper/variables.less',
     'themes/readable/bootswatch.less',
     'themes/readable/variables.less',
+    'themes/sandstone/bootswatch.less',
+    'themes/sandstone/variables.less',
     'themes/simplex/bootswatch.less',
     'themes/simplex/variables.less',
     'themes/slate/bootswatch.less',
@@ -48,11 +54,11 @@ Package.on_use(function (api) {
     'themes/united/variables.less',
     'themes/yeti/bootswatch.less',
     'themes/yeti/variables.less'
-  ],"server");
+  ], "server");
 
   api.add_files([
     'bootswatch-themes.coffee'
-  ],"server");
+  ], "server");
 
 
 });
