@@ -1,8 +1,8 @@
-# bootstrap-themer-bootswatch-themes
+# Meteorstrap-bootswatch
 
-### A collection of themes by bootswatch, compatible with tap:bootstrap-themer
+### A collection of themes by [Bootswatch](https://github.com/thomaspark/bootswatch), compatible with [tap:meteorstrap](http://github.com/tapevents/meteorstrap)
 
-Currently Includes
+Currently Includes:
 
 * amelia
 * cerulean
@@ -18,3 +18,5 @@ Currently Includes
 * slate
 * spacelab
 * superhero
+
+**MIT License** 2015, TAPevents - we make [apps for events](http://tapevents.com).
