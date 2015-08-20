@@ -14,7 +14,7 @@ Package.on_use(function(api) {
   ], ['server']);
 
   api.use([
-    'tap:meteorstrap'
+    'tap:meteorstrap@0.1.0'
   ], ['server'], {weak: true});
 
   // Bootstrap Server-side assets
