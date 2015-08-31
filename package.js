@@ -1,7 +1,7 @@
 Package.describe({
   summary: 'A collection Bootswatch themes for Bootstrap-Themer',
   name: 'tap:meteorstrap-bootswatch',
-  version: '0.1.0',
+  version: '0.1.1',
   git: 'https://github.com/TAPevents/meteorstrap-bootswatch'
 });
 
@@ -24,8 +24,6 @@ Package.on_use(function(api) {
     'themes/cerulean/variables.less',
     'themes/cosmo/bootswatch.less',
     'themes/cosmo/variables.less',
-    'themes/custom/bootswatch.less',
-    'themes/custom/variables.less',
     'themes/cyborg/bootswatch.less',
     'themes/cyborg/variables.less',
     'themes/darkly/bootswatch.less',
