@@ -1,24 +1,24 @@
 Package.describe({
   summary: 'A collection Bootswatch themes for Bootstrap-Themer',
   name: 'tap:meteorstrap-bootswatch',
-  version: '0.1.1',
+  version: '1.0.0',
   git: 'https://github.com/TAPevents/meteorstrap-bootswatch'
 });
 
 Package.on_use(function(api) {
 
-  api.versionsFrom('1.1.0.3');
+  api.versionsFrom('1.2.1');
 
   api.use([
     'coffeescript'
   ], ['server']);
 
   api.use([
-    'tap:meteorstrap@0.1.0'
+    'tap:meteorstrap@1.0.0'
   ], ['server'], {weak: true});
 
   // Bootstrap Server-side assets
-  api.add_files([
+  api.addAssets([
     // bootswatch themes
     'themes/cerulean/bootswatch.less',
     'themes/cerulean/variables.less',
